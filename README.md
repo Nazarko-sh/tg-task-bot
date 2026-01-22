@@ -1,23 +1,28 @@
 # Telegram Task Bot 🤖📝
 
-A simple Telegram bot for managing personal tasks.  
-Built with **Python** and **aiogram**, using **SQLite** for data storage.
+A Telegram bot built with Python to manage tasks and automate simple workflows.
 
-This is a learning-oriented pet project that demonstrates:
-- Telegram bot development
-- Async Python (asyncio)
-- Clean project structure
-- Environment variable configuration
-- Basic database usage
+The bot allows users to create and view tasks directly in Telegram,
+demonstrating a practical approach to task management and automation.
 
 ---
 
 ## 🚀 Features
 
-- Add new tasks
-- View task list
+- Add new tasks via Telegram commands
+- View and manage task list
 - Persistent storage using SQLite
-- Modular and readable codebase
+- Async bot logic using aiogram
+- Clean and modular project structure
+
+---
+
+## 🧱 Use Cases
+
+- Personal task tracking
+- Simple productivity automation
+- Telegram-based workflow management
+- Foundation for more advanced automation bots
 
 ---
 
@@ -30,14 +35,4 @@ tg-task-bot/
 │   ├── bot.py
 │   ├── config.py
 │   ├── db.py
-│   ├── keyboards.py
-│   ├── states.py
-│   └── handlers/
-│       ├── start.py
-│       └── tasks.py
 │
-├── main.py
-├── requirements.txt
-├── .env.example
-├── .gitignore
-└── README.md
