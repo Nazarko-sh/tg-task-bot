@@ -35,4 +35,14 @@ tg-task-bot/
 │   ├── bot.py
 │   ├── config.py
 │   ├── db.py
+│   ├── keyboards.py
+│   ├── states.py
+│   └── handlers/
+│       ├── start.py
+│       └── tasks.py
 │
+├── main.py
+├── requirements.txt
+├── .env.example
+├── .gitignore
+└── README.md
